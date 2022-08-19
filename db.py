@@ -12,8 +12,8 @@ def create_tables():
         """CREATE TABLE IF NOT EXISTS users(
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
                 name TEXT NOT NULL,
-				email TEXT NOT NULL,
-				phone TEXT NOT NULL
+		email TEXT NOT NULL,
+		phone TEXT NOT NULL
             )
             """
     ]
